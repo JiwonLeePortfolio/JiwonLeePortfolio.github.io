@@ -1,0 +1,196 @@
+
+/* 
+"selectors" = Body, h1,p, etc 
+"property" = color, text align
+"property value" = red, center, 20px
+
+*/
+
+.split 
+{
+    height: 100%;
+
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+  
+ 
+
+
+/* NAVIGATION BAR START */
+
+  /* Control the right side */
+.right 
+{
+    right: 0;
+    background-color: rgb(175, 151, 135);
+    width: 20%;
+
+}
+
+a.nav-landingPg
+{
+    font-family: 'Monospace', Courier, monospace, Verdana;
+    /* border:2px solid pink; */
+    text-decoration: none;
+    color: rgb(85, 61, 45);
+    /* display: inline-block; */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 8px;
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: inherit;
+    white-space:nowrap
+    
+}
+.brand a:hover 
+{
+    color: rgba(255, 242, 217, 0.755);
+}
+
+a.nav-internallink
+{
+    /* border:2px solid red; */
+    font-family: 'Monospace', Courier, monospace, Verdana;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.nav-wrapper 
+{
+    /* border:2px solid red; */
+    text-align:center;
+}
+.nav-links
+{
+    /* border:2px solid yellow; */
+    /* display: flex; */
+    margin-left: 50px;
+    margin-right: 110px;
+    margin-top: 50px;
+    font-size: 18px;
+    text-align: justify;   
+}
+.left-side 
+{
+    display: flex;
+}
+.navbar > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+.nav-link-wrapper {
+    /* border:2px solid rgb(132, 0, 255); */
+    margin-top: 30px;
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    background-position: 100% .4em;
+    padding-right: .6em;
+}
+.nav-link-wrapper a {
+    color: rgb(85, 61, 45);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.nav-link-wrapper a:hover 
+{
+    color: rgba(255, 242, 217, 0.755);
+}
+/* NAVIGATION BAR END */
+
+
+ /* Control the left side */
+ .left 
+{
+    left: 0;
+    background-image: url("cafe.jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed; 
+    background-size: cover;
+    opacity: 80%;
+    
+    width: 80%;
+    overflow-y: auto;
+}
+  
+.nonav
+{
+    margin-left: 110px;
+    margin-right: 110px;
+    background-color:rgba(255, 242, 217, 0.755);
+}
+.nonavtxt
+{
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+h1 
+{
+    /* hides the all h1 text */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+h3
+{
+    color: rgb(85, 61, 45);
+    font-size: 28px;
+    font-family: 'Monospace', Courier, monospace, Verdana;
+    font-weight: lighter;
+}
+  
+p1 
+{  
+    color: rgb(85, 61, 45);
+    font-size: 18px;
+    font-family: 'Monospace', Courier, monospace, Verdana;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#recWebs
+{
+    list-style-type: none;
+    text-align: left;
+    margin-left: -40px;
+}
+.theme-check
+{
+    margin-top: 50px;
+    margin-left: 50px;
+    color:rgb(126, 94, 72);
+    /* margin-bottom: 50px; */
+}
+a.linkten 
+{
+    color: rgb(143, 109, 86);
+}
+
+/* label = theme checkbox */
+/* label 
+{
+    border:2px solid rgb(159, 138, 16);
+} */
+
+/* Source: https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp */
+/* hides the scroll bar */
+::-webkit-scrollbar 
+{
+    width: 10px;
+}
+
+/*Portfolio Styles*/
+
+
+
+
+
+
